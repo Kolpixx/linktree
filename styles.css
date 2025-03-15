@@ -27,7 +27,7 @@ header > img {
     border: 5px solid #636363;
     border-radius: 15px;
     padding: 30px;
-    width: 7em;
+    max-width: 7em;
     font-size: 2em;
     display: block;
     text-decoration: none;
