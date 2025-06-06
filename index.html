@@ -2,27 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet">
     <title>Kolpix - Linktree</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lilita+One">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://avatars0.githubusercontent.com/u/68741965" type="image/png" rel="icon">
 </head>
 <body>
-    <header>
-        <img src="https://avatars0.githubusercontent.com/u/68741965" alt="Kolpix's Profile Picture" id="pfp">
-        <p>@Kolpix</p>
-    </header>
+<main>
+    <p id="name">Kolpix</p>
+    <div id="divider"></div>
+    <p id="subtitle">that's me!!</p>
 
-    <main>
-        <div id="buttons">
-            <a class="link" href="https://github.com/Kolpixx" target="_blank">Github</a>
-            <a class="link" href="https://www.twitch.tv/kolpixx" target="_blank">Twitch</a>
-            <a class="link" href="https://bsky.app/profile/kolpix.bsky.social" target="_blank">Bluesky</a>
+    <div class="links-flexbox">
+        <div id="github">
+            <a href="https://github.com/Kolpixx" target="_blank"><img src="resources/github.png" alt="github"></a>
         </div>
-    </main>
-
-    <footer>
-        <p>Made with ♥️ by <a href="https://github.com/Kolpixx" target="_blank">Kolpix</a></p>
-    </footer>
+        <div id="twitch">
+            <a href="https://twitch.tv/Kolpixx" target="_blank"><img src="resources/twitch.png" alt="twitch"></a>
+        </div>
+        <div id="bluesky">
+            <a href="https://bsky.app/profile/kolpix.bsky.social" target="_blank"><img src="resources/bluesky.png" alt="bluesky"></a>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footer-container">
+        <p id="credits">Made with ♥️ by <a href="https://github.com/Kolpixx" target="_blank">Kolpix</a></p>
+    </div>
+</footer>
 </body>
 </html>
