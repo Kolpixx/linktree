@@ -7,22 +7,31 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lilita+One">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://avatars0.githubusercontent.com/u/68741965" type="image/png" rel="icon">
+    <script src="./script.js" defer></script>
 </head>
 <body>
+<header>
+    <div id="mute">
+        <svg onclick="toggleMusic()" id="headphone-on" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-headphones-icon lucide-headphones"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></svg>
+        <svg onclick="toggleMusic()" id="headphone-off" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-headphone-off-icon lucide-headphone-off"><path d="M21 14h-1.343"/><path d="M9.128 3.47A9 9 0 0 1 21 12v3.343"/><path d="m2 2 20 20"/><path d="M20.414 20.414A2 2 0 0 1 19 21h-1a2 2 0 0 1-2-2v-3"/><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 2.636-6.364"/></svg>
+    </div>
+</header>
 <main>
-    <p id="name">Kolpix</p>
-    <div id="divider"></div>
-    <p id="subtitle">that's me!!</p>
+    <div id="wrapper">
+        <p id="name">Kolpix</p>
+        <div id="divider"></div>
+        <p id="subtitle">that's me!!</p>
 
-    <div class="links-flexbox">
-        <div id="github">
-            <a href="https://github.com/Kolpixx" target="_blank"><img src="resources/github.png" alt="github"></a>
-        </div>
-        <div id="twitch">
-            <a href="https://twitch.tv/Kolpixx" target="_blank"><img src="resources/twitch.png" alt="twitch"></a>
-        </div>
-        <div id="bluesky">
-            <a href="https://bsky.app/profile/kolpix.de" target="_blank"><img src="resources/bluesky.png" alt="bluesky"></a>
+        <div class="links-flexbox">
+            <div id="github">
+                <a href="https://github.com/Kolpixx" target="_blank"><img src="resources/github.png" alt="github"></a>
+            </div>
+            <div id="twitch">
+                <a href="https://twitch.tv/Kolpixx" target="_blank"><img src="resources/twitch.png" alt="twitch"></a>
+            </div>
+            <div id="bluesky">
+                <a href="https://bsky.app/profile/kolpix.de" target="_blank"><img src="resources/bluesky.png" alt="bluesky"></a>
+            </div>
         </div>
     </div>
 </main>

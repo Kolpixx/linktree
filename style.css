@@ -15,6 +15,39 @@
     transition: ease 0.5s;
 }
 
+html, body {
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: right;
+    height: 5vh;
+}
+
+#mute {
+    margin: 2vh;
+    transform: scale(2);
+}
+
+#headphone-off {
+    display: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+footer {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     animation: bg 15s infinite;
     font-family: "Lilita One", serif;
@@ -24,15 +57,15 @@ body {
 #name {
     font-size: 9.45rem;
     text-align: center;
-    margin-top: 13.5rem;
     font-weight: bold;
     cursor: default;
 }
 
 #divider {
     border: 3px solid white;
+    border-radius: 15px;
     margin: 1.2rem auto;
-    width: 15.6rem;
+    width: 18rem;
 }
 
 #subtitle {
@@ -64,10 +97,6 @@ body {
 
 #credits {
     font-size: 1.3rem;
-    position: absolute;
-    bottom: 0.5rem;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 #credits > a {
@@ -77,4 +106,10 @@ body {
 
 #credits > a:hover {
     text-decoration: underline;
+}
+
+#wrapper {
+    width: 50%;
+    height: 50%;
+    padding: 5rem 0;
 }
