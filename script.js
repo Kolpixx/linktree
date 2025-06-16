@@ -4,6 +4,7 @@ const audio = new Audio("./resources/background_jazz.mp3");
 document.addEventListener('DOMContentLoaded', () => {
     audio.play()
         .catch(err => console.log(err))
+    audio.loop = true;
     audio.volume = 0.2;
 })
 
