@@ -1,5 +1,5 @@
 let musicPlaying = true;
-const audio = new Audio("./resources/background_jazz.mp3");
+const audio = new Audio("https://raw.githubusercontent.com/Kolpixx/linktree/refs/heads/main/resources/background_jazz.mp3");
 
 document.addEventListener('DOMContentLoaded', () => {
     audio.play()
