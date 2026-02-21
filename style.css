@@ -28,6 +28,7 @@ header {
 #mute {
     margin: 2vh;
     transform: scale(2);
+    cursor: pointer;
 }
 
 #headphone-off {
